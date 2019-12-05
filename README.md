@@ -1,6 +1,4 @@
-# cra-template-typescript
-
-This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+# cra-template-typescript-graphql
 
 To use this template, add `--template typescript-graphql` when creating a new app.
 
@@ -13,6 +11,12 @@ npx create-react-app my-app --template typescript-graphql
 
 yarn create react-app my-app --template typescript-graphql
 ```
+## Usage
+
+1. Put your queries/mutations in .graphql files anywhere in the src folder
+2. Edit the url in `codegen.yml` and `src/index.tsx` if your graphql endpoint is not `http://localhost:4000`
+3. Generate hooks by running `yarn gen` or `npm run gen`
+4. Use the generated hooks in your code
 
 For more information, please refer to:
 
