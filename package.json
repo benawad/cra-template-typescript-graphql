@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-typescript-graphql",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "The base TypeScript + GraphQL template for Create React App.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benawad/cra-template-typescript-graphql.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/benawad/cra-template-typescript-graphql/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
